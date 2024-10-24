@@ -14,13 +14,13 @@ float average=sum/n;
 cout<<"Average:"<<average<<endl;
 if(average>=90&&average<=100){
 cout<<"Grade:A+";}
-else if(average>=80&&average<=90){
+else if(average>=80&&average<90){
 cout<<"Grade:A";
 }
-else if(average>=70&&average<=80){
+else if(average>=70&&average<80){
 cout<<"Grade:B";
 }
-else if(average>=60&&average<=70){
+else if(average>=60&&average<70){
 cout<<"Grade:C";    
 }    
 else{
